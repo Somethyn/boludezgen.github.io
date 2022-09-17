@@ -23,6 +23,14 @@ h3 {
 }
 /*Estilo Boton*/
 
+.divisor2 {
+    padding: auto;
+    top: 7%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
 .button {
     display: inline-block;
     padding: 15px 25px;
@@ -46,10 +54,3 @@ h3 {
     transform: translateY(4px);
   }
 
-.divisor2 {
-    padding: auto;
-    top: 7%;
-    width: 100%;
-    text-align: center;
-    font-size: 18px;
-}
