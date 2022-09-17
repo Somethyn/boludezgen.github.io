@@ -1,8 +1,4 @@
 /*Centrar toda la pagina*/
-body {
-    position: auto;
-}
-
 div {
     position: absolute;
     top: 7%;
