@@ -1,6 +1,5 @@
 /*Centrar toda la pagina*/
 div {
-    position: absolute;
     top: 7%;
     width: 100%;
     text-align: center;
