@@ -5,6 +5,12 @@ div {
     text-align: center;
     font-size: 18px;
 }
+.div2 {
+    top: 7%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
 /*Titulo Pagina*/
 h2 {
     text-align: center;
