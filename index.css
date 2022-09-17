@@ -1,6 +1,6 @@
 /*Centrar toda la pagina*/
 body {
-    text-align: center;
+    position: absolute;
 }
 /*Titulo Pagina*/
 h2 {
