@@ -1,63 +1,14 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
 <html lang="es">
-<head></head>
+<head>
+    <title>Boludez Generator - Public Edition</title>
+</head>
 <body>
-<h2 class="h2">Boludez Generator v1.9-beta-3</h2>
-<style>
-    h2 {
-        text-align: center;
-        top: 10%;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 36px;
-    }
-</style>
-    <div class="script" id="pickRandom">
-<style>
-    div {
-        position: absolute;
-        top: 7%;
-        width: 100%;
-        text-align: center;
-        font-size: 18px;
-    }
-</style>       
-<script src="./pickRandom.js" id="pickRandom()"></script>
-<h3 class="h3" id="printing"></h3>
-<style>
-    h3 {
-    text-align: center;
-    top: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 26px;
-}</style>
-<style>
-    .button {
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #4CAF50;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-}
-
-.button:hover {background-color: #368039}
-
-.button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-</style>
-
-<button class="button" value="clickme" onclick="pickRandom()">Tocá acá para generar una boludez!</button>
-
-
+    <link src="./index.css">
+    <h2 class="h2">Boludez Generator v1.9-beta-3</h2>     
+    <script src="./pickRandom.js" id="pickRandom()"></script>
+    <h3 class="h3" id="printing"></h3>
+    <button class="button" value="clickme" onclick="pickRandom()">Tocá acá para generar una boludez!</button>
 </body>
 </html>
